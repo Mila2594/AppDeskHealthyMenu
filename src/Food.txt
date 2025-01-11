@@ -1,0 +1,5 @@
+Patatas;Frutas y verduras;200
+Pollo;Carnes y pescados;300
+Batido;Derivados lácteos;250
+Salmón;Carnes y pescados;300
+Tomates;Frutas y verduras;500

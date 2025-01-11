@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<SplitPane dividerPositions="0.8337801608579088" orientation="VERTICAL" prefHeight="400.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.milacanete.healthymenu.ChartViewController">
+    <AnchorPane>
+            <PieChart fx:id="pieChartFoods" layoutX="16.0" layoutY="-46.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      </AnchorPane>
+    <AnchorPane maxWidth="1.7976931348623157E308" SplitPane.resizableWithParent="false">
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button fx:id="btnGoToMain" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#goToBackMain" text="Volver a la vista principal">
+               <padding>
+                  <Insets bottom="4.0" left="20.0" right="20.0" top="4.0" />
+               </padding>
+            </Button>
+      </HBox>
+      </AnchorPane>
+</SplitPane>
